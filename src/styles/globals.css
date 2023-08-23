@@ -23,7 +23,7 @@
 }
 
 body{
-  background-image: url('../../public/assets/img/bg-star.jpg');
+  background-image: url('/assets/img/bg-star.jpg');
 } 
 
 .star-bg {
