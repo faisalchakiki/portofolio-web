@@ -22,9 +22,9 @@
   user-select: none;
 }
 
-body{
+/* body{
   background-image: url('../../public/assets/img/bg-star.jpg');
-}
+} */
 
 .star-bg {
   background-image: url('../../public/assets/img/bg-star.jpg');

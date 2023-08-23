@@ -7,9 +7,9 @@ function ProjectCard({data, index, showModal}) {
     <div key={index} className="rounded-[10px]">
       <div className="relative w-full h-[200px] bigHp:h-[280px] sm:h-[200px] lg:h-[300px] rounded mb-2 md:mb-4 group overflow-hidden shadow-lg shadow-slate-600">
         <Image className="w-full h-[100%] object-cover object-center transition-opacity" 
-            src={data.srcImage[0]} object-fit="contain"
+            src={data.srcImage[0]}
             width="100"
-            height="100" alt="image-porto" lazy/>
+            height="100" alt="image-porto" priority/>
         <div className="absolute hidden items-center justify-center group-hover:bg-slate-600 group-hover:bg-opacity-80 top-0 group-hover:bottom-0 z-10 right-0 left-0 gap-5 group-hover:flex transition-all">
           <a href={data.srcGitRepo} target="_blank">
             <div>
