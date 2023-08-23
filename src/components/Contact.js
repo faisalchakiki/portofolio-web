@@ -84,7 +84,9 @@ function Contact() {
           </div>
         </div>
         {/* <NavButton active='page4' /> */}
-        <a className="absolute bottom-1 right-0 text-sm" href="https://www.freepik.com/free-photo/starry-night-sky_7061153.htm#query=star%20background&position=1&from_view=keyword&track=ais">Image by kjpargeter on Freepik</a>
+        <div className="absolute bottom-1 right-1 text-sm" >
+          <a href="https://www.freepik.com/free-photo/starry-night-sky_7061153.htm#query=star%20background&position=1&from_view=keyword&track=ais">Image by kjpargeter</a> on Freepik
+        </div> 
       </section>
   )
 }
