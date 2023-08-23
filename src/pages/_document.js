@@ -7,7 +7,7 @@ export default function Document() {
           <link rel="icon" href="../logo.svg" />
       </Head>
       {/* <body className="bg-gray text-primary relative"> */}
-      <body className="relative scrollbar star-bg">
+      <body className="relative scrollbar">
         <Main />
         <NextScript />
       </body>
