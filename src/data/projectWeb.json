@@ -1,0 +1,50 @@
+[
+  {
+    "nameProject": "Pokemon Labs",
+    "srcDeploy": "https://pokemon-labs.vercel.app/",
+    "srcImage": [
+      "/assets/img/poke-img.svg"
+    ],
+    "srcGitRepo": "https://github.com/faisalchakiki/pokemon-labs",
+    "year": "2023",
+    "details":
+      "Pokemon Website - Which can save the monster we want and name it with the name we want.",
+    "technology": "React JS, Axios, etc."
+  },
+  {
+    "nameProject": "Company Absence",
+    "srcDeploy": "https://company-absence.vercel.app/",
+    "srcImage": [
+      "/assets/img/absence.svg"
+    ],
+    "srcGitRepo": "https://github.com/faisalchakiki/company_absence",
+    "year": "2023",
+    "details":
+      "Summarizes company employee attendance data in a chart. built using ReactJs. Features : 1. Maps that have been purchased mark to indicate the location of the company. 2. Line chart to know attendance statistics in the office. 3. Bar chart to find statistical information in each office such as sick, on leave, on projects. 4. To replace the existing office data on the bar chart, press the mark on the map.",
+    "technology": "React JS, TailwindCSS, Chart Js, etc."
+  },
+  {
+    "nameProject": "Fazz Course Admin",
+    "srcDeploy": "https://fazztrack-web-nuxt.vercel.app/about",
+    "srcImage": [
+      "/assets/img/fazz-img.svg"
+    ],
+    "srcGitRepo": "https://github.com/fazztrack-vue/fazztrack-web-nuxt",
+    "year": "2023",
+    "details":
+      "This website is a copy of the fazztrack web which has admin features such as manipulating Minicamp data and Online Course data. Made by 2 people using Vue JS (Nuxt and Vuex).",
+    "technology": "Vue JS, Vuex, TailwindCSS, etc."
+  },
+  {
+    "nameProject": "Cinephile Website",
+    "srcDeploy": "https://cinephile-tickets.vercel.app/",
+    "srcImage": [
+      "/assets/img/cinephile-1.svg"
+    ],
+    "srcGitRepo": "https://github.com/faisalchakiki/fw12-frontend",
+    "year": "2022",
+    "details":
+      "An application for ordering tickets for the latest movies easily via a browser.",
+    "technology": "React JS"
+  }
+]

@@ -1,18 +1,34 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      colors: {
+        gray: "#D8D8D8",
+        primary: "#21243D",
+        purple: "#502DC2",
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'bg-ig': "url('/assets/img/bg-ig.jpeg')",
+      },
+      screens: {
+        'bigHp': '440px',
+        // => @media (min-width: 992px) { ... }
       },
     },
+    fontFamily: {
+      gloock: ["Gloock", "serif"],
+      heebo: ["Heebo", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
+    },
   },
-  plugins: [],
-}
+  plugins: [require("daisyui")],
+  darkMode: ['class', '[data-mode="dark"]'],
+};

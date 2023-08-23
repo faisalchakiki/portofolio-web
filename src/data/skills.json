@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTML",
+    "src": "/assets/logo/html.svg"
+  },
+  {
+    "name": "CSS",
+    "src": "/assets/logo/css.svg"
+  },
+  {
+    "name": "Javascript",
+    "src": "/assets/logo/js.svg"
+  },
+  {
+    "name": "React",
+    "src": "/assets/logo/react.svg"
+  },
+  {
+    "name": "Boostrap",
+    "src": "/assets/logo/boostrap.svg"
+  },
+  {
+    "name": "Tailwind",
+    "src": "/assets/logo/tailwind.svg"
+  },
+  {
+    "name": "Next Js",
+    "src": "/assets/logo/next.svg"
+  },
+  {
+    "name": "Node Js",
+    "src": "/assets/logo/node.svg"
+  },
+  {
+    "name": "Vue Js",
+    "src": "/assets/logo/vue.svg"
+  }
+]

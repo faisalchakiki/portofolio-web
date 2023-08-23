@@ -1,0 +1,39 @@
+[
+  {
+    "nameProject": "Cinephile App",
+    "srcDeploy": "https://github.com/faisalchakiki/rn-cinephile/releases/tag/v1.02",
+    "srcImage": [
+      "/assets/img/cinephile.svg"
+    ],
+    "srcGitRepo": "https://github.com/faisalchakiki/rn-cinephile",
+    "year": "2023",
+    "details":
+      "Cinema ticket booking application. makes it easy for someone to order cinema tickets online made using the React Native.",
+    "technology": "React Native, Express JS, Redux, Axios, etc."
+  },
+  {
+    "nameProject": "Taktik Shop",
+    "srcDeploy": "https://github.com/faisalchakiki/rn-ecommerce#readme",
+    "srcImage": [
+      "/assets/img/taktik.svg"
+    ],
+    "srcGitRepo": "https://github.com/faisalchakiki/rn-ecommerce",
+    "year": "2023",
+    "details":
+      "Display for e-commerce applications made from React Native Expo, this project is still in the form of a display because data from the backend side has not been generated.",
+    "technology": "React Native, Firebase, Redux, Axios, etc."
+  },
+  {
+    "nameProject": "Todo Today",
+    "srcDeploy": "https://github.com/faisalchakiki/todo-fe-rn/releases/tag/v1.01",
+    "srcImage": [
+      "/assets/img/todolist.svg"
+    ],
+    "srcGitRepo": "https://github.com/faisalchakiki/todo-fe-rn",
+    "year": "2023",
+    "details":
+      "An application Todo List to make it easier for you to manage your time.",
+    "technology": "React Native, Express JS, Axios, etc."
+  }
+  
+]
